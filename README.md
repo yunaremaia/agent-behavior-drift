@@ -29,7 +29,7 @@ Works with any agent that emits structured logs: Claude Code, Cursor, Codex, cus
 ## Quick Start
 
 ```bash
-pip install agent-behavior-drift
+pip install git+https://github.com/yunaremaia/agent-behavior-drift.git
 
 # Build baseline from historical sessions
 abd baseline --sessions ./past-sessions/ --output .abd-baseline.json
